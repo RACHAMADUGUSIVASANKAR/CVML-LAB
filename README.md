@@ -14,7 +14,7 @@ CVML LAB/
 ├── csv files/
 │   ├── flowers.csv
 │   ├── iris.csv
-│   └── pca - pca.csv
+│   └── pca.csv
 │
 ├── images/
 │   ├── car.jpg
@@ -61,13 +61,13 @@ pip install numpy pandas matplotlib scikit-learn opencv-python
 | `program8.py` | Feature extraction and pattern recognition                  |
 | `program9.py` | Model evaluation and accuracy metrics                       |
 
-*(You can edit this table to reflect your actual lab experiments.)*
+
 
 ---
 
 ## 🧩 Datasets
 
-* **`flowers.csv`**, **`iris.csv`**, and **`pca - pca.csv`** contain datasets for ML model training and testing.
+* **`flowers.csv`**, **`iris.csv`**, and **`pca.csv`** contain datasets for ML model training and testing.
 * Ensure the CSV files are properly formatted and located in the `csv files/` directory.
 
 ---
