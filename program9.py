@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
-df = pd.read_csv("pca.csv")
+df = pd.read_csv("csv files/pca.csv")
 print("Dataset shape:", df.shape)
 print(df.head())
 
