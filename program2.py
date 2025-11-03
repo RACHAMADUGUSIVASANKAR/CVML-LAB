@@ -1,11 +1,15 @@
+#EXPERIMENT 2 : Edge detection using Sobel, canny, and Laplacian operators
+import cv2
+import matplotlib.pyplot as plt
+
 # Load image in grayscale
-image = cv2.imread('D:\\imagenew.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('images/men.jpg', cv2.IMREAD_GRAYSCALE)
 
 if image is None:
     raise FileNotFoundError("Make sure 'your_image.jpg' is in the current directory.")
 
 # Sobel Edge Detection
-sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)      # X-direction
+sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)  # X-direction
 sobel_y = cv2.Sobel(image, cv2.CV_64F, 0, 1, ksize=3)      # Y-direction
 sobel_combined = cv2.magnitude(sobel_x, sobel_y)
 

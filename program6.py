@@ -1,10 +1,11 @@
+#Experiment 6 - Train ML models (SVM / KNN) for image classification.
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
-df = pd.read_csv("flowers.csv")
+df = pd.read_csv("csv files/flowers.csv")
 X = df.iloc[:, :-1].values
 y = df.iloc[:, -1].values
 

@@ -1,8 +1,9 @@
+#Experiment 5 - Implement face detection using Haar cascades or DNN models.
 import cv2
 # Load the Haar cascade
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 # Load image
-image = cv2.imread('men.jpg')  # Replace with your image path
+image = cv2.imread('images/men.jpg')  # Replace with your image path
 if image is None:
     print("Error: Could not load image.")
     exit()

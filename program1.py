@@ -1,4 +1,4 @@
-#Experiment : 1. Image processing Technique :Resizing ,Filtering Thresholding using opencv?
+#Experiment 1 : Image processing Technique :Resizing ,Filtering Thresholding using opencv?
 
 from PIL import Image
 import cv2

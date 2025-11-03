@@ -1,8 +1,9 @@
+#Experiment 4 : Feature Extraction Using HOG, SIFT, and ORB
 import cv2
 import numpy as np
 
 # Load image
-image = cv2.imread('car.jpg')  # Replace with your actual image path
+image = cv2.imread('images/car.jpg')  # Replace with your actual image path
 if image is None:
     print("Error: Could not load image.")
     exit()
