@@ -1,9 +1,11 @@
+#Experiment : 1. Image processing Technique :Resizing ,Filtering Thresholding using opencv?
+
 from PIL import Image
 import cv2
 import numpy as np
 
 # Load image using OpenCV
-image_path = 'd:\image.jpg'  # Replace with your image path
+image_path = 'images/image.jpg'  # Replace with your image path
 image = cv2.imread(image_path)
 
 # -----------------------------------------
